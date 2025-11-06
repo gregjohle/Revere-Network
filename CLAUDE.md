@@ -6,6 +6,8 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 **Revere Network** - A Twitter/X clone built with React and Supabase
 
+**GitHub Repository**: https://github.com/gregjohle/Revere-Network
+
 This is a social media application that allows users to create posts, comment, like/dislike content, follow other users, and view content through chronological or popularity-based feeds.
 
 ## Current Status: Planning Complete, Awaiting Database Setup
@@ -18,8 +20,9 @@ This is a social media application that allows users to create posts, comment, l
 - 25 story cards created across 13 epics (93 story points)
 - 7-sprint implementation roadmap
 - Team workflow and development process documented
-- Git repository initialized
+- Git repository initialized and pushed to GitHub
 - Material-UI selected as UI library
+- GitHub CLI configured and authenticated
 
 ### Awaiting
 - User to set up Supabase database using schema in `docs/revere-network-schema-final.md`
@@ -45,7 +48,7 @@ This is a social media application that allows users to create posts, comment, l
 
 ```
 /Users/greg/AI-Playground/
-├── .claude/agents/          # Custom Claude Code agents
+├── .claude/agents/          # Custom Claude Code agents (local only, gitignored)
 │   ├── react-architect.md
 │   ├── react-project-manager.md
 │   ├── react-qa-auditor.md
@@ -58,7 +61,8 @@ This is a social media application that allows users to create posts, comment, l
 │   └── IMPLEMENTATION_PLAN.md            # Sprint roadmap
 ├── README.md                 # Project overview
 ├── PROJECT_SUMMARY.md        # Executive summary
-└── .env.example              # Environment template
+├── .env.example              # Environment template (placeholders only)
+└── .gitignore                # Git ignore rules
 ```
 
 ## Development Workflow
@@ -104,6 +108,12 @@ Expected commands:
 - `npm run lint` - Lint code
 
 ## Important Notes
+
+### Repository & Version Control
+- GitHub repository: https://github.com/gregjohle/Revere-Network
+- `.claude/` folder is gitignored (local agent configurations only)
+- `.env` files are gitignored (secrets remain secret)
+- `.env.example` contains placeholders only for developer reference
 
 ### Database Schema
 - Usernames are case-insensitive (stored lowercase via trigger)
