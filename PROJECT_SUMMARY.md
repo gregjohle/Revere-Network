@@ -25,7 +25,7 @@ A feature-rich Twitter/X clone that enables users to:
 - Vite for fast development
 - TanStack Query for server state
 - React Router for navigation
-- Tailwind CSS for styling
+- Material-UI (MUI) for styling
 
 ### Backend Stack
 - Supabase (PostgreSQL database)
@@ -231,13 +231,17 @@ All documentation has been created and committed to the repository:
    - Test authentication flows
    - Create first pull request
 
-### Questions Before Starting:
+### Configuration Confirmed:
 
-1. Do you want to handle the Supabase database setup yourself, or would you like assistance?
-2. What UI library would you prefer? (Tailwind CSS, Material-UI, Chakra UI, or other)
-3. Any specific design or branding requirements?
-4. Target launch date or timeline constraints?
-5. Any features you'd like to prioritize or defer?
+1. **Database Setup**: User will handle Supabase setup and provide credentials ✓
+2. **UI Library**: Material-UI (MUI) selected ✓
+3. **Development Plan**: Follow 7-sprint roadmap as planned ✓
+
+### Next Actions:
+
+1. **User Action Required**: Set up Supabase database using schema in docs
+2. **Provide Credentials**: Share Supabase URL and Anon Key when ready
+3. **Begin Development**: react-architect will start with Story FE-001
 
 ---
 
